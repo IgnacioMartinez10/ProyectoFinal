@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import "variables";
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image:url(../media/fondoCards.jpg);
+    background-attachment: fixed;
+}
+
+.fontCursive{
+    font-family: 'Ephesis', cursive;
+}
+.titulo{
+    font-family: 'Ephesis', cursive;
+    font-size: 2rem;
+    @media (min-width: 720px){
+        font-size: 4rem;
+    }
+}
+.typeLight{
+    font-weight: 300;
+}
+.typeRegular{
+    font-weight:400;
+}
+
+.typeBold{
+    font-weight: 700;
+}
+.fontTittle{
+    font-size: 3rem;
+}
+
+.bgGray{
+    background-color: #373737;
+}
+.bgBlack{
+    background-color:black;
+}
+.bgBrown{
+    background-color: #AA773B;
+}
+.bgWhite{
+    background-color: white;
+}
+
+.white{
+    color: white;
+} 
+
+.black{
+    color: black;
+}
+.brown{
+    color: #AA773B;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.opacity{
+    opacity: .7;
+}
+
+
+
+/*BANNERS*/
+
+.bannerHome{
+    background-image: url("../media/home.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 100vh;
+}
+.bannerFooter{
+    background-image: url("../media/fondoBanner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ---- ESTILOS GENERALES ---- */
+#navbarNav{
+    a{
+        font-size: 1.5rem;
+        transition: all 300ms;
+        color: white;
+        margin-left: 15px;
+    }
+}
+
+#navbarNav{
+    a:hover{
+        color: #AA773B;
+        transform: scale(1.2 , 1.2);
+        text-decoration: none;
+    }
+}
+
+/* --- ANIMACIONES GENERALES --- */
+.animation1{
+    p{
+        transition: all 300ms;
+        animation: showTittle 300ms linear;
+    }
+}
+.animation2{
+    p{
+        transition: all 600ms;
+        animation: showSubtittle 600ms linear;
+    }
+}
+@keyframes showTittle{
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+@keyframes showSubtittle{
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.card{
+    box-shadow: 5px 5px 5px 5px black;
+    border: none;
+    .card-body{
+        background-color: #373737;
+        background-position: center;
+        .card-title{
+            color: #AA773B;
+            font-weight: bold;
+            font-family: Ephesis;
+            font-size: 2rem;
+        }
+        .card-text{
+            color: white;
+        }
+    }
+    .card-footer{
+        background-color:#373737;
+    }
+}
+.btn:hover{
+    background-color: white;
+    color: #AA773B;
+}
+footer{
+    span{
+        a{
+            color:#AA773B;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.15rem;
+            
+        }
+        a:hover{
+            color:black;
+            text-decoration: none;
+        }
+    }
+}
+
+.carouselHome{
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+

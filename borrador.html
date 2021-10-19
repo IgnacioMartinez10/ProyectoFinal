@@ -1,0 +1,204 @@
+<!--ACORDION-->
+
+
+<div class="container-xl mb-20">
+    <div class=" h1 typeBold text-center bg-light rounded-pill brown ">Preguntas Frecuentes</div>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        HORARIOS DE ATENCION
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Martes A Domingo de 09hs hasta 19pm
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        METODOS DE PAGO
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Efectivo, Tarjeta de Debito, Credito O Mercadopago
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿DONDE NOS ENCONTRAMOS?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Nos encontramos en Juan B Alberdi 5450, esquina C. Vega Belgrano.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--NAVBAR-->
+
+<div class="navbar fixed-top navbar-expand-lg navbar-light bgBlack">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse align-items-center justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link typeBold" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link typeBold" href="#">Pastas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link typeBold" href="#">Salsas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link typeBold" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link typeBold" href="#">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!--CARDS-->
+
+<!--CARDS-->
+<div class=" cards container-xl">
+    <p class="h1 typeBold text-center bg-light rounded-pill">Algunas de nuestras especialidades</p>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+            <div class="card">
+                <img src="media/lasagna.jpg" class="card-img-top" alt="lasagna">
+                <div class="card-body">
+                    <h5 class="card-title typeBold">Lasagna</h5>
+                    <p class="card-text typeLight">Lasagna rellena con ricota, verdura, muzzarella y jamon </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Agregar al carrito <span><img class="cart" src="media/cart.svg" alt="cart"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="media/fideoRelleno.jpg" class="card-img-top" alt="fideoRelleno">
+                <div class="card-body">
+                    <h5 class="card-title typeBold">Fideos Rellenos</h5>
+                    <p class="card-text typeLight">Fideos rellenos de pollo y verdura o ricota y verdura</p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Agregar al carrito <span><img class="cart" src="media/cart.svg" alt="cart"></span>
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">ERROR</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Producto NO DISPONIBLE
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="media/sorrentino.jpg" class="card-img-top" alt="sorrentinos">
+                <div class="card-body">
+                    <h5 class="card-title typeBold">Sorrentinos</h5>
+                    <p class="card-text typeLight">Sorrentinos hechos y cortados a mano rellenos de muzzarella y
+                        jamon</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Agregar al carrito <span><img class="cart" src="media/cart.svg" alt="cart"></span>
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">ERROR</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ´<p>Producto NO DISPONIBLE</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="media/panzotti.jpg" class="card-img-top" alt="panzottis">
+                <div class="card-body">
+                    <h5 class="card-title typeBold">Panzotti</h5>
+                    <p class="card-text typeLight">Panzottis hechos y cortados a mano rellenos de calabaza, albahaca
+                        y aciete de oliva</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Agregar al carrito <span><img class="cart" src="media/cart.svg" alt="cart"></span>
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">ERROR</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Producto NO DISPONIBLE
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
