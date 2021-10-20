@@ -16,7 +16,7 @@ body{
 }
 .titulo{
     font-family: 'Ephesis', cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
     @media (min-width: 720px){
         font-size: 4rem;
     }
@@ -157,6 +157,8 @@ body{
     background-color: white;
     color: #AA773B;
 }
+
+.navbar
 footer{
     span{
         a{
