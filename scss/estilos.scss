@@ -7,7 +7,7 @@
 }
 body{
     min-height: 100vh;
-    background-image:url(../media/fondoCards.jpg);
+    background-image:url("../media/fondoCards.jpg");
     background-attachment: fixed;
 }
 
@@ -16,9 +16,12 @@ body{
 }
 .titulo{
     font-family: 'Ephesis', cursive;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    @media (min-width: 540px){
+        font-size: 2rem;
+    }
     @media (min-width: 720px){
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 .typeLight{
@@ -158,7 +161,6 @@ body{
     color: #AA773B;
 }
 
-.navbar
 footer{
     span{
         a{
@@ -180,4 +182,39 @@ footer{
     margin: 0px auto;
 }
 
+/* ---- PASTAS ---- */
+.boxContent{
+      p{
+          color:#AA773B;
+          font-family: ephesis;
+          font-size: 1.5rem;
+          @media (min-width: 720px){
+            font-size: 3rem;
+        }
+      }
+}
 
+/* ---- SALSAS ----*/
+#salsas{
+    .card{
+        .card-title{
+            font-size: 1.5rem;
+           @media (min-width: 300px){
+               font-size: 3rem;
+           }
+           @media (min-width: 720px) {
+               font-size: 4rem;
+           }
+
+        }
+        .card-text{
+           font-size: .5rem;
+           @media (min-width: 300px){
+               font-size: .8rem;
+           }
+           @media (min-width: 720px) {
+               font-size: 1rem;
+           }
+        }
+    }
+}

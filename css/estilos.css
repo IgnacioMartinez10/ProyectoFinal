@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(../media/fondoCards.jpg);
+  background-image: url("../media/fondoCards.jpg");
   background-attachment: fixed;
 }
 
@@ -16,12 +16,18 @@ body {
 
 .titulo {
   font-family: 'Ephesis', cursive;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+}
+
+@media (min-width: 540px) {
+  .titulo {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 720px) {
   .titulo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -217,5 +223,51 @@ footer span a:hover {
 .carouselHome {
   max-width: 700px;
   margin: 0px auto;
+}
+
+/* ---- PASTAS ---- */
+.boxContent p {
+  color: #AA773B;
+  font-family: ephesis;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 720px) {
+  .boxContent p {
+    font-size: 3rem;
+  }
+}
+
+/* ---- SALSAS ----*/
+#salsas .card .card-title {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 300px) {
+  #salsas .card .card-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 720px) {
+  #salsas .card .card-title {
+    font-size: 4rem;
+  }
+}
+
+#salsas .card .card-text {
+  font-size: .5rem;
+}
+
+@media (min-width: 300px) {
+  #salsas .card .card-text {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 720px) {
+  #salsas .card .card-text {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
