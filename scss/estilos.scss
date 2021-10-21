@@ -105,7 +105,10 @@ body{
         text-decoration: none;
     }
 }
-
+.navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+}
 /* --- ANIMACIONES GENERALES --- */
 .animation1{
     p{
