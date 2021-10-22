@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="scss/estilos.css">
     <link rel="icon" href="media/icon.svg" type="logo">
     <title>Fabrica de Pastas Santa Mónica</title>
 </head>
 
 <body>
+    <!--Inicio del header-->
     <header>
         <div class="container-fluid">
             <div class="navbar navbar-expand-lg navbar-light">
@@ -19,8 +20,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center align-content-center fixed-top"
-                    id="navbarNav">
+                <nav class="collapse navbar-collapse justify-content-center align-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link typeBold" href="index.html">Inicio <span
@@ -39,11 +39,13 @@
                             <a class="nav-link typeBold" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
+    <!--Fin del header-->
 
+    <!--Inicio de la sección salsas-->
     <section class="container-xl mt-5" id="salsas">
         <div class="row justify-content-center align-content-center animation1">
             <p class="titulo fontCursive typeBold brown">Nuestras Salsas</p>
@@ -64,7 +66,8 @@
                     <img src="media/bolognesa2.jpeg" class="card-img img-fluid" alt="...">
                     <div class="card-img-overlay">
                         <h5 class="card-title titulo fontCursive black typeBold text-center">Bolognesa</h5>
-                        <p class="card-text typeBold white bgBlack opacity p-1 rounded">La salsa bolognesa está compuesta por tomate en lata, morrón, cebolla, carne picada y aceite de oliva.
+                        <p class="card-text typeBold white bgBlack opacity p-1 rounded">La salsa bolognesa está
+                            compuesta por tomate en lata, morrón, cebolla, carne picada y aceite de oliva.
                         </p>
                     </div>
                 </div>
@@ -76,7 +79,8 @@
                     <img src="media/pesto2.jpg" class="card-img img-fluid" alt="salsa filetto">
                     <div class="card-img-overlay">
                         <h5 class="card-title titulo fontCursive black typeBold text-center">Pesto</h5>
-                        <p class="card-text typeBold white bgBlack opacity p-1 rounded"> La salsa pesto está compuesta por hojas frescas de albahaca, aceite de oliva y 1 diente de ajo  </p>
+                        <p class="card-text typeBold white bgBlack opacity p-1 rounded"> La salsa pesto está compuesta
+                            por hojas frescas de albahaca, aceite de oliva y 1 diente de ajo </p>
                     </div>
                 </div>
             </div>
@@ -85,14 +89,18 @@
                     <img src="media/salsaBlanca.jpg" class="card-img img-fluid" alt="...">
                     <div class="card-img-overlay">
                         <h5 class="card-title titulo fontCursive black typeBold text-center">Bechamel</h5>
-                        <p class="card-text typeBold white bgBlack opacity p-1 rounded"> La salsa Bechamel o también conocida como salsa blanca, está compuesta por harina, manteca, leche entera, y una pisca de nuez moscada.
+                        <p class="card-text typeBold white bgBlack opacity p-1 rounded"> La salsa Bechamel o también
+                            conocida como salsa blanca, está compuesta por harina, manteca, leche entera, y una pisca de
+                            nuez moscada.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--Fin de la sección salsas-->
 
+    <!--Inicio del footer-->
     <footer class="d-flex flex-column align-content-center bannerFooter text-center text-white">
         <div class="d-flex shapes justify-content-center"><img src="media/shapes.png" alt=""></div>
         <!-- Grid container -->
@@ -122,6 +130,7 @@
         </div>
         <!-- Copyright -->
     </footer>
+    <!--Fin del footer-->
 
 
 

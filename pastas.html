@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="scss/estilos.css">
     <link rel="icon" href="media/icon.svg" type="logo">
     <title>Fabrica de Pastas Santa Mónica</title>
 </head>
 
 <body>
+    <!--Inicio del header-->
     <header>
         <div class="container-fluid">
             <div class="navbar navbar-expand-lg navbar-light">
@@ -19,7 +20,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center align-content-center fixed-top"
+                <div class="collapse navbar-collapse justify-content-center align-content-center"
                     id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
@@ -44,7 +45,7 @@
         </div>
         <div class="container-xl mt-5">
             <div class="d-flex flex-row justify-content-center animation1">
-                <p class="titulo fontCursive typeBold brown">Nuestras Pastas</p>
+                <p class="titulo fontCursive typeBold brown">Nuestras Pastas<p>
             </div>
 
             <div class="row justify-content-center align-content-center animation2">
@@ -52,12 +53,15 @@
             </div>
         </div>
     </header>
+    <!--Fin del header-->
+
+    <!--Inicio de la sección fideos-->
     <section class="container-xl mt-5">
         <div class="card-deck py-4">
             <div class="card">
                 <img src="media/fideoCasero.jpg" class="card-img-top" alt="fideo casero">
                 <div class="card-body">
-                    <h5 class="card-title">Fideos Caseros</h5>
+                    <h3 class="card-title">Fideos Caseros</h3>
                     <p class="card-text">Fideos caseros cortados a cuchillo. Hechos con masa al huevo, de espinaca o de
                         morrón.</p>
                 </div>
@@ -65,7 +69,7 @@
             <div class="card">
                 <img src="media/fideoRelleno.jpg" class="card-img-top" alt="fideos rellenos">
                 <div class="card-body">
-                    <h5 class="card-title">Fideos Rellenos</h5>
+                    <h3 class="card-title">Fideos Rellenos</h3>
                     <p class="card-text">Fideos rellenos de pollo y verdura o ricota y verdura.
                     </p>
                 </div>
@@ -73,7 +77,7 @@
             <div class="card">
                 <img src="media/mostachol.jpg" class="card-img-top" alt="mostacholes">
                 <div class="card-body">
-                    <h5 class="card-title">Mostacholes</h5>
+                    <h3 class="card-title">Mostacholes</h3>
                     <p class="card-text">Fideos mostacholes cortados en canutos acanalados hechos con masa al huevo.</p>
                 </div>
             </div>
@@ -82,14 +86,14 @@
             <div class="card">
                 <img src="media/foratti.jpg" class="card-img-top" alt="foratti">
                 <div class="card-body">
-                    <h5 class="card-title">Forattis</h5>
+                    <h3 class="card-title">Forattis</h3>
                     <p class="card-text">Fideo foratti cortado a maquina hecho con masa al huevo.</p>
                 </div>
             </div>
             <div class="card">
                 <img src="media/cintaArgentina.jpg" class="card-img-top" alt="cinta argentina">
                 <div class="card-body">
-                    <h5 class="card-title">Cinta Argentina</h5>
+                    <h3 class="card-title">Cinta Argentina</h3>
                     <p class="card-text">Fideo Cinta Argentina cortado a maquina hecho con masa al huevo.
                     </p>
                 </div>
@@ -97,16 +101,19 @@
             <div class="card">
                 <img src="media/fusil.jpg" class="card-img-top" alt="fusiles">
                 <div class="card-body">
-                    <h5 class="card-title">Fusillis</h5>
+                    <h3 class="card-title">Fusillis</h3>
                     <p class="card-text">Fideo fusilli también conocido como fusil, fideo rulito, o cable de teléfono.
                         Cortado a maquina hecho con masa al huevo, de espinaca o de morrón.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-xl" id="Ravioles">
+    <!--Fin de la sección fideos-->
+
+    <!--Inicio de la sección ravioles-->
+    <section class="container-xl">
         <div class="row justify-content-center align-content-center">
-            <p class="titulo fontCursive typeRegular white">Ravioles</p>
+            <h1 class="titulo fontCursive typeRegular white">Ravioles</h1>
         </div>
 
         <div class="container-xl  mb-20 text-center">
@@ -149,17 +156,19 @@
             </div>
         </div>
     </section>
+    <!--Fin de la sección ravioles-->
 
-    <section class="container-xl" id="hechoAMano">
+<!--Inicio de la sección hecho a mano-->
+    <section class="container-xl">
         <div class="row justify-content-center align-content-center">
             <p class="titulo fontCursive typeRegular white">Hecho a Mano</p>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-6 mb-2">
                 <div class="card bg-dark text-white mb-2">
-                    <img src="media/sorrentino.jpg" class="card-img" alt="...">
+                    <img src="media/sorrentino.jpg" class="card-img" alt="sorrentinos">
                     <div class="card-img-overlay">
-                        <h5 class="titulo fontCursive black pepe">Sorrentinos</h5>
+                        <h3 class="titulo fontCursive black ">Sorrentinos</h3>
                         <p class="card-text black">Pasta rellena elaborada con harina y huevo. <br>
                             Su relleno es de muzzarella y jamon o muzzarella, albahaca y aceite de oliva.</p>
                         <p class="card-text typeBold black">Cocción: 7 a 10 min.</p>
@@ -168,9 +177,9 @@
             </div>
             <div class="col-xs-12 col-md-6 mb-2">
                 <div class="card bg-dark text-white mb-3">
-                    <img src="media/capeletti.jpg" class="card-img" alt="...">
+                    <img src="media/capeletti.jpg" class="card-img" alt="capelettis">
                     <div class="card-img-overlay">
-                        <h5 class="titulo fontCursive black">Capelettis</h5>
+                        <h3 class="titulo fontCursive black">Capelettis</h3>
                         <p class="card-text typeRegular black">Pasta rellena elaborada con harina, huevo y semolín. <br>
                             Su relleno es de pollo y jamon.
                         </p>
@@ -180,11 +189,11 @@
             </div>
             <div class="col-xs-12 col-md-6 mb-2">
                 <div class="card d-flex justify-content-center bg-dark text-white mb-3">
-                    <img src="media/panzotti.jpg" class="card-img" alt="...">
+                    <img src="media/panzotti.jpg" class="card-img" alt="panzottis">
                     <div class="card-img-overlay">
-                        <h5 class="titulo fontCursive black">Panzotti</h5>
+                        <h3 class="titulo fontCursive black">Panzotti</h3>
                         <p class="card-text typeRegular black">Pasta rellena elaborada con harina y huevo. <br>
-                            Su relleno es de Verdura y parmesano, Pollo y verdura o Calabaza albahaca y aceite de oliva 
+                            Su relleno es de Verdura y parmesano y Pollo y verdura
                         </p>
                         <p class="card-text typeBold black">Cocción: 8 a 10 min.</p>
                     </div>
@@ -192,6 +201,9 @@
             </div>
         </div>
     </section>
+    <!--Fin de la sección hecho a mano-->
+
+    <!--Inicio del footer-->
     <footer class="d-flex flex-column align-content-center bannerFooter text-center text-white">
         <div class="d-flex shapes justify-content-center"><img src="media/shapes.png" alt=""></div>
         <!-- Grid container -->
@@ -221,6 +233,7 @@
         </div>
         <!-- Copyright -->
     </footer>
+    <!--Fin del footer-->
 
 
 

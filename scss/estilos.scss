@@ -16,12 +16,12 @@ body{
 }
 .titulo{
     font-family: 'Ephesis', cursive;
-    font-size: 1.8rem;
+    font-size: 3rem;
     @media (min-width: 540px){
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     @media (min-width: 720px){
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 .typeLight{
@@ -39,38 +39,35 @@ body{
 }
 
 .bgGray{
-    background-color: #373737;
+    background-color: $colorGray;
 }
 .bgBlack{
-    background-color:black;
+    background-color:$colorBlack;
 }
 .bgBrown{
-    background-color: #AA773B;
+    background-color: $colorBrown;
 }
 .bgWhite{
-    background-color: white;
+    background-color: $colorWhite;
 }
 
 .white{
-    color: white;
+    color: $colorWhite;
 } 
 
 .black{
-    color: black;
+    color: $colorBlack;
 }
 .brown{
-    color: #AA773B;
+    color: $colorBrown;
 }
 .mb-20{
     margin-bottom: 20px;
 }
-.mt-50{
-    margin-top: 50px;
-}
+
 .opacity{
     opacity: .7;
 }
-
 
 
 /*BANNERS*/
@@ -79,7 +76,6 @@ body{
     background-image: url("../media/home.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
     height: 100vh;
 }
 .bannerFooter{
@@ -93,22 +89,19 @@ body{
     a{
         font-size: 1.5rem;
         transition: all 300ms;
-        color: white;
+        color: $colorWhite;
         margin-left: 15px;
     }
 }
 
 #navbarNav{
     a:hover{
-        color: #AA773B;
+        color: $colorBrown;
         transform: scale(1.2 , 1.2);
         text-decoration: none;
     }
 }
-.navbar-nav{
-    flex-direction: row;
-    justify-content: end;
-}
+
 /* --- ANIMACIONES GENERALES --- */
 .animation1{
     p{
@@ -140,55 +133,55 @@ body{
 }
 
 .card{
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px $colorBlack;
     border: none;
     .card-body{
-        background-color: #373737;
+        background-color: $colorGray;
         background-position: center;
         .card-title{
-            color: #AA773B;
+            color: $colorBrown;
             font-weight: bold;
             font-family: Ephesis;
             font-size: 2rem;
         }
         .card-text{
-            color: white;
+            color: $colorWhite;
         }
     }
     .card-footer{
-        background-color:#373737;
+        background-color: $colorGray;
     }
 }
 .btn:hover{
     background-color: white;
-    color: #AA773B;
+    color: $colorBrown;
 }
-
+.carouselHome{
+    max-width: 700px;
+    margin: 0px auto;
+}
 footer{
     span{
         a{
-            color:#AA773B;
+            color: $colorBrown;
             font-weight: bold;
             text-decoration: none;
             font-size: 1.15rem;
             
         }
         a:hover{
-            color:black;
+            color: $colorBlack;
             text-decoration: none;
         }
     }
 }
 
-.carouselHome{
-    max-width: 700px;
-    margin: 0px auto;
-}
+
 
 /* ---- PASTAS ---- */
-.boxContent{
+.boxContent /*RAVIOLES*/{
       p{
-          color:#AA773B;
+          color: $colorBrown;
           font-family: ephesis;
           font-size: 1.5rem;
           @media (min-width: 720px){
