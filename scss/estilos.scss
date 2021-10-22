@@ -198,6 +198,8 @@ footer{
 #salsas{
     .card{
         .card-title{
+            color: $colorWhite;
+            text-shadow: 3px 3px $colorBlack;
             font-size: 1.5rem;
            @media (min-width: 300px){
                font-size: 3rem;
