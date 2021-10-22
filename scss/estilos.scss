@@ -163,6 +163,7 @@ body{
     max-width: 700px;
     margin: 0px auto;
 }
+/*FOOTER*/
 footer{
     span{
         a{
@@ -216,4 +217,13 @@ footer{
            }
         }
     }
+}
+
+/*---- CONTACTO ----*/
+.form-control:focus {
+    color: $colorBlack;
+    background-color: #fff;
+    border-color: $colorBrown;
+    outline: 0;
+    box-shadow: 0 0 0 2px $colorBrown;
 }
