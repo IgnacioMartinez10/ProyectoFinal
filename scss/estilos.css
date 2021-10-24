@@ -233,6 +233,12 @@ footer span a:hover {
   text-decoration: none;
 }
 
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /* ---- PASTAS ---- */
 .boxContent p {
   color: #AA773B;

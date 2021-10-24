@@ -184,9 +184,10 @@ footer{
         }
     }
 }
-
-
-
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
 /* ---- PASTAS ---- */
 .boxContent /*RAVIOLES*/{
       p{
